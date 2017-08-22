@@ -1,0 +1,131 @@
+@charset "utf-8";
+a{
+    text-decoration: none;
+    color: #ccc;
+    font-size:12px;
+}
+.w1100{width:1100px;margin:0 auto;}
+.head{
+    height: 36px;
+    background: #373737  url("../images/qznav.jpg") no-repeat center 0;}
+.topbar .ailk{
+    float:left;
+    height: 36px;
+    line-height: 36px;
+    padding:0 15px;
+}
+.topbar .QZ_nav{
+    display: none;
+}
+.topbar span{
+    float: left;
+}
+.loginbar .ailk{
+    padding: 0;
+}
+.topbar .ailk:hover{
+    color: #fff;
+}
+.topbar i{
+    float: left;
+    width: 6px;
+    height: 36px;
+    line-height: 36px;
+    color: #595959;
+}
+.ymxk{
+    background: url("../images/qznav.png") no-repeat 0 11px;
+}
+.app{
+    background: url("../images/qznav.png") no-repeat 0 -107px;
+}
+.topbar .admin{
+    background: url("../images/qznav.png") no-repeat 15px -65px;
+    padding: 0 10px 0  42px;
+}
+/*一下是网页的子盒子*/
+.topbar_menu{
+    height: 176px;
+    top: 36px;
+    right: -80px;
+    background: #3b3b3b url("../images/qznav-mk.png") repeat-x;
+}
+.topbar_appul{
+    width: 430px;
+    height: 130px;
+    padding: 23px 30px;
+    background: url("../images/qznav-app-bg.png") no-repeat 0 bottom;
+}
+.topbar_appul li{
+    float: left;
+    width: 204px;
+    height: 120px;
+    padding: 10px 0 0 96px;
+}
+.topbar_appul li h3{
+    line-height: 26px;
+    font-size: 16px;
+    font-weight: normal;
+}
+.topbar_appul li h3 a{
+    color: #eee;
+}
+.topbar_appul li>a{
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 10px;;
+}
+.applogo{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    background: url("../images/qznav-app-logo.png");
+}
+.appul_txt{
+    line-height: 26px;
+    font-size: 12px;
+    font-family: SimSun;
+    color: #ddd;
+}
+.appul_lik a{
+    display: inline-block;
+    line-height: 26px;
+    font-size: 12px;
+    color: #00c0ff;
+}
+.appul_lik i{
+    float: none;
+    padding: 0 5px;
+    height: 26px;
+    line-height: 26px;
+}
+.topbar_appul a:hover{
+    text-decoration: underline;
+}
+/*以上是网页的顶部信息*/
+.top_bg{
+    height: 94px;
+    background: url("../images/topbg.jpg") no-repeat center 0;
+}
+.logo{
+    height: 94px;
+    border-bottom: 1px solid #111;
+}
+.logo1{
+    display: inline-block;
+    margin-top:25px;
+    width: 160px;
+    height: 49px;
+    background: url("../images/logo.png") no-repeat;
+}
+.logo2{
+    display: inline-block;
+    margin-top: 25px;
+    width: 160px;
+    height: 49px;
+    background: url("../images/logo2.png") no-repeat;
+}
+a.logo2{
+    display: none;
+}
