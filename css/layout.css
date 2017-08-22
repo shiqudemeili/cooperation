@@ -5,6 +5,7 @@ a{
     font-size:12px;
 }
 .w1100{width:1100px;margin:0 auto;}
+/*以上是公共属性*/
 .head{
     height: 36px;
     background: #373737  url("../images/qznav.jpg") no-repeat center 0;}
@@ -56,7 +57,7 @@ a{
     padding: 23px 30px;
     background: url("../images/qznav-app-bg.png") no-repeat 0 bottom;
 }
-.topbar_appul li{
+.topbar_appul .app_logo1{
     float: left;
     width: 204px;
     height: 120px;
@@ -70,17 +71,29 @@ a{
 .topbar_appul li h3 a{
     color: #eee;
 }
-.topbar_appul li>a{
+.topbar_appul .app_logo1>a{
     display: block;
     position: absolute;
     left: 0px;
     top: 10px;;
 }
-.applogo{
+.applogo1 {
     display: inline-block;
     width: 80px;
     height: 80px;
     background: url("../images/qznav-app-logo.png");
+}
+.topbar_appul .app_logo2{
+    float: left;
+    width: 128px;
+    height: 128px;
+}
+.applogo2{
+    display: inline-block;
+    width: 128px;
+    height: 128px;
+    background: url("../images/qznav-code.jpg") no-repeat center center;
+    border: 1px solid #4f4f4f;
 }
 .appul_txt{
     line-height: 26px;
@@ -103,14 +116,70 @@ a{
 .topbar_appul a:hover{
     text-decoration: underline;
 }
+/*以上是第一个隐藏的盒子*/
+.topbar_menu2{
+    width: auto;
+    height: 176px;
+    position: absolute;
+    top: 36px;
+    right: -120px;
+    background: #3b3b3b url("../images/qznav-mk.png") repeat-x;
+}
+.topbar_menu2 .topbar_navul{
+    width: 576px;
+    height: 146px;
+    padding: 15px 20px;
+}
+.topbar_menu2 .topbar_navul li{
+    float: left;
+    width: 188px;
+    height: 146px;
+    border-left: 1px solid #515151;
+}
+.topbar_navul li div{
+    float: left;
+    width: 94px;
+    height: auto;
+}
+.topbar_navul li h3{
+    border-left: 3px solid #e22200;
+    margin:0 0 10px -1px;
+    padding-left: 15px;
+    width: 160px;
+    height: 16px;
+    line-height: 18px;
+    color: #ddd;
+    font-size: 13px;
+    font-family: SimSun;
+}
+.topbar_navul li div a{
+    color: #bbb;
+    padding:0 0 0 18px;
+    display: inline-block;
+    width: auto;
+    height: 24px;
+    line-height: 24px;
+    font-size: 12px;
+}
+.topbar_navul li div .c009cff{
+    color: #009cff;
+}
+.topbar_navul li div .cff5400{
+    color: #ff5400;
+}
 /*以上是网页的顶部信息*/
 .top_bg{
     height: 94px;
-    background: url("../images/topbg.jpg") no-repeat center 0;
+    background: #373737  url("../images/topbg.jpg") no-repeat center 0;
 }
 .logo{
     height: 94px;
     border-bottom: 1px solid #111;
+}
+.logo h1{
+    width: 0px;
+    height: 0px;
+    text-indent: -999px;
 }
 .logo1{
     display: inline-block;

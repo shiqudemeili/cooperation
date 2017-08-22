@@ -1,0 +1,118 @@
+/*
+* @Author: Administrator
+* @Date:   2017-08-21 20:30:26
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-08-22 17:57:45
+*/
+a{display: inline-block;
+	text-decoration: none;
+}
+.left a{color:#fff;}
+.right a{color: #bbb;}
+.cen a{color:#bbb;}
+.cen a:hover{
+	color: #fff;
+	text-decoration: underline;
+}
+.right a:hover{
+	color: #fff;
+	text-decoration: underline;
+}
+li{
+	float: left;
+}
+i{display: inline-block;
+margin-bottom: 4px;}
+p{font-size: 15px;
+letter-spacing:0;
+display:block;}
+.nav_bg{
+	background: #373737  url("../images/topbg.jpg") no-repeat center -95px;
+}
+.nav{
+	width: 1085px;
+	height: 62px;
+	padding-top:16px;
+	padding-left: 15px;
+	border-top:1px solid #444;
+	margin:0 auto;
+}
+.nav .p1 i {
+	background: url(../images/gc2017_wap.png) no-repeat;
+	width: 30px;
+	height: 30px;
+	margin-left: 15px;	
+}
+
+.nav .left li{
+	text-align:center;
+	width: 60px;
+	margin-right: 20px;
+	height: 48px;
+}
+.nav .p2 i:hover{background-position:-26px 0;}
+.nav .p3 i:hover{background-position:-26px -30px;}
+.nav .p4 i:hover{background-position:-26px -60px;}
+.nav .p5 i:hover{background-position:-26px -90px;}
+.nav .p6 i:hover{background-position:-26px -120px;}
+.nav .p2 i{
+	background: url(../images/bzs.png);
+	background-position: 0 0;
+	width: 26px;
+	height: 30px;
+}
+.nav .p3 i{
+	background: url(../images/bzs.png);
+	background-position: 0 -30px;
+	width: 26px;
+	height: 30px;
+}
+.nav .p4 i{
+	background: url(../images/bzs.png);
+	background-position: 0 -60px;
+	width: 26px;
+	height: 30px;
+}
+.nav .p5 i{
+	background: url(../images/bzs.png);
+	background-position:  0 -90px;
+	width: 26px;
+	height: 30px;
+}
+.nav .p6 i{
+	background: url(../images/bzs.png);
+	background-position:  0 -120px;
+	width: 26px;
+	height: 30px;
+}
+.nav ul .p6{
+	padding-right: 20px;
+	border-right: 1px solid #444;
+	margin-right: 0px;
+}
+.nav .cen{
+	width: 151px;
+	height: 48px;
+	padding-left: 24px;
+	border-right: 1px solid #444;
+}
+.nav .cen .nomargin{
+	margin-right: 0px;
+}
+.nav .cen li {
+	width: 28px;
+	height: 30px;
+	margin-right: 23px;
+	font-size:14px;
+}
+.nav .right{
+	width: 284px;
+	height: 48px;
+	padding-left: 24px;
+}
+.nav .right li{
+	margin-right: 23px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+}
